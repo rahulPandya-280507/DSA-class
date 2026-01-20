@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 
-int main() {
+int main()
+{
     // initialise str1 and str2. Assign pointers.
     char str1[100], str2[100];
     char *ptr1, *ptr2;
@@ -48,6 +49,6 @@ int main() {
     }
     *ptr1 = '\0';
     printf("\nConcatenated string: %s\n", str1);
-    
+
     return 0;
 }
