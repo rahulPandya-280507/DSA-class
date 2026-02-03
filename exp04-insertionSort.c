@@ -16,9 +16,7 @@ int main() {
     printf("Sorting array...");
     insertionSort(arr, size);
     printf("\nSorted array: ");
-    printArray(arr, size);
-    
-    return 0;
+    printArray(arr, size);return 0;
 }
 
 void insertionSort(int arr[], int size) {
